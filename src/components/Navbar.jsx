@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { HeartIcon, MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/react/24/outline';
-import logo from '../assets/logo-1.png';
+import logo from '../../public/Logo-1.png';
 import { setOpenCart, selectTotalQTY } from '../app/CartSlice.js';
 const Navbar = () => {
 
